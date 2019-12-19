@@ -26,7 +26,7 @@ mongoose
     })
     .then(() => console.log('DB Connected'));
 
-app.use(express.static(path.join(__dirname, "../client/build")));
+app.use(express.static(path.join(__dirname, "./client/build")));
 // middlewares
 app.use(morgan('dev'));
 app.use(bodyParser.json());
@@ -44,7 +44,7 @@ app.use('/api', orderRoutes);
 
 const port = process.env.PORT;
 
-app.get("*", (req, res) => {res.sendFile(path.join(__dirname + "../client/build/index.html"));});
+app.get("*", (req, res) => {res.sendFile(path.join(__dirname + "./client/build/index.html"));});
 
 app.listen(port, () => {
     console.log(`Server is running on port ${port}`);
