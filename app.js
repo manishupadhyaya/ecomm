@@ -17,10 +17,11 @@ const orderRoutes = require('./routes/order');
 
 // app
 const app = express();
+app.use(cors());
 
 // db
 mongoose
-    .connect('mongodb://manishupadhyaya:manish12345@ds159273.mlab.com:59273/pragmatic', {
+    .connect('mongodb://localhost:27017/ecommerce', {
         useNewUrlParser: true,
         useCreateIndex: true
     })
@@ -32,8 +33,6 @@ app.use(morgan('dev'));
 app.use(bodyParser.json());
 app.use(cookieParser());
 app.use(expressValidator());
-app.use(cors());
-
 // routes middleware
 app.use('/api', authRoutes);
 app.use('/api', userRoutes);
@@ -42,7 +41,7 @@ app.use('/api', productRoutes);
 // app.use('/api', braintreeRoutes);
 app.use('/api', orderRoutes);
 
-const port = process.env.PORT;
+const port = process.env.PORT || 8000;
 
 app.get("*", (req, res) => {res.sendFile(path.join(__dirname + "./client/build/index.html"));});
 
