@@ -20,7 +20,7 @@ const app = express();
 
 // db
 mongoose
-    .connect(process.env.DATABASE, {
+    .connect('mongodb://manishupadhyaya:manish12345@ds159273.mlab.com:59273/pragmatic', {
         useNewUrlParser: true,
         useCreateIndex: true
     })
