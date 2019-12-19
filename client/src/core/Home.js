@@ -36,7 +36,7 @@ const Home = () => {
 
     return (
         <Layout
-            title="Home Page"
+            title="Welcome to the E commerce section"
             description="Great Offers today! Hurry!"
             className="container-fluid"
         >

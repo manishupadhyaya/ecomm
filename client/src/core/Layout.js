@@ -10,7 +10,7 @@ const Layout = ({
 }) => (
     <div>
         <Menu />
-        <div className="jumbotron">
+        <div className="jumbotron" style={{textAlign: "center"}}>
             <h2>{title}</h2>
             <p className="lead">{description}</p>
         </div>
