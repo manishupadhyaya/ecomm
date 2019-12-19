@@ -21,7 +21,7 @@ app.use(cors());
 
 // db
 mongoose
-    .connect('mongodb://localhost:27017/ecommerce', {
+    .connect('mongodb://manishupadhyaya:manish12345@ds159273.mlab.com:59273/pragmatic', {
         useNewUrlParser: true,
         useCreateIndex: true
     })
