@@ -6,12 +6,19 @@ Creating a digital e-commerce platform for physically handicapped and people wit
 
 BASIC ARCHITECTURE - 
 
-USER SECTION WITH AUTH
-ADMIN SECTION WITH AUTH
-CATEGORIES SECTION
-PRODUCTS SECTION
-CARTS SECTION
-BUY PRODUCT SECTION
+User Section With Auth<br>
+Admin Section With Auth<br>
+Categories Section 
+Products Section
+Search By Sale and Recently Added
+Cart Section
+Buy Product Section
+
+TECHNOLOGIES USED
+- NodeJS
+- MongoDB
+- ReactJS
+
 
 RUNNING AND DEPLOYING THE CODE
 
