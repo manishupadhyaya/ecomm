@@ -102,11 +102,11 @@ const Card = ({
     };
 
     return (
-        <div className="card">
+        <div className="card" style={{height:'10%'}}>
             <div className="card-header name">{product.name}</div>
-            <div className="card-body">
+            <div className="card-body" >
                 {shouldRedirect(redirect)}
-                <ShowImage item={product} url="product" />
+                <ShowImage item={product} url="product" className="xs"/>
                 <p className="lead mt-2">
                     {product.description.substring(0, 100)}
                 </p>
