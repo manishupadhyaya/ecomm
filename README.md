@@ -8,11 +8,11 @@ BASIC ARCHITECTURE -
 
 User Section With Auth<br>
 Admin Section With Auth<br>
-Categories Section 
-Products Section
-Search By Sale and Recently Added
-Cart Section
-Buy Product Section
+Categories Section<br>
+Products Section<br>
+Search By Sale and Recently Added<br>
+Cart Section<br>
+Buy Product Section<br>
 
 TECHNOLOGIES USED
 - NodeJS
