@@ -1,4 +1,19 @@
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+                                               PEHCHAAN PRESENTS E-COMMERCE SECTION
+
+
+AIM OF THIS REPOSITORY -
+Creating a digital e-commerce platform for physically handicapped and people with visual, hearing and speech impairments to enhance their day to day lives through cheap and variety of products which helps to assist them in their day-to day lives
+
+BASIC ARCHITECTURE - 
+
+USER SECTION WITH AUTH
+ADMIN SECTION WITH AUTH
+CATEGORIES SECTION
+PRODUCTS SECTION
+CARTS SECTION
+BUY PRODUCT SECTION
+
+RUNNING AND DEPLOYING THE CODE
 
 ## Available Scripts
 
@@ -6,6 +21,9 @@ In the project directory, you can run:
 
 ### `npm start`
 
+And in the Client directory inside the project, you should run:
+
+### `npm start`
 Runs the app in the development mode.<br>
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
