@@ -18,7 +18,7 @@ TECHNOLOGIES USED
 - NodeJS
 - MongoDB
 - ReactJS
-
+# LIVE PROJECT IS DEPLOYED ON https://pehchaanec.herokuapp.com
 
 RUNNING AND DEPLOYING THE CODE
 
