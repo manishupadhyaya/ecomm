@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Link, Redirect } from "react-router-dom";
 import ShowImage from "./ShowImage";
 import moment from "moment";
+import '../styles.css'
 import { addItem, updateItem, removeItem } from "./cartHelpers";
 
 const Card = ({
@@ -102,11 +103,11 @@ const Card = ({
     };
 
     return (
-        <div className="card" style={{height:'10%'}}>
+        <div className="card" >
             <div className="card-header name">{product.name}</div>
             <div className="card-body" >
                 {shouldRedirect(redirect)}
-                <ShowImage item={product} url="product" className="xs"/>
+                <ShowImage item={product} url="product"/>
                 <p className="lead mt-2">
                     {product.description.substring(0, 100)}
                 </p>

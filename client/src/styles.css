@@ -76,3 +76,24 @@
     background: rgb(79,158,158);
     background-size: 400% 400%;
 }
+
+.card-content {
+    display: flex;
+    padding: 10px 30px;
+    justify-content: space-between;
+    /* align-items: flex-end; */
+}
+
+
+@media (max-width: 768px) { 
+  .card-content {
+    flex-direction: column;
+
+    /* left: 20px; */
+    /* position: relative; */
+    /* align-items: inherit; */
+    /* max-width: 100%; */
+    /* width: 100%; */
+  }   
+
+}
